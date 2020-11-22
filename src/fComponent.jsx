@@ -150,7 +150,7 @@ class Car extends Component {
           style={{
             margin: 'auto',
             borderColor: 'red',
-            width: '50%',
+            width: '100%',
             'margin-bottom': '5%',
           }}
         >
