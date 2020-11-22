@@ -154,7 +154,7 @@ class Car extends Component {
             'margin-bottom': '5%',
           }}
         >
-          <div className="cover" style={{padding:"1.3em",width: '90%', margin: 'auto'}}>
+          <div className="cover" style={{padding:"1.3em", margin: 'auto'}}>
             <button
               onClick={this.add}
               className="bg-primary add"
