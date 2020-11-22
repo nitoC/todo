@@ -128,7 +128,7 @@ class Car extends Component {
       timeAdd:timeA,
       timeFinish:timeF
     });
-    
+
   }
   changeInp(event) {
     this.setState({
@@ -154,16 +154,17 @@ class Car extends Component {
             'margin-bottom': '5%',
           }}
         >
-          <div style={{width: '90%', margin: 'auto'}}>
+          <div className="cover" style={{padding:"1.3em",width: '90%', margin: 'auto'}}>
             <button
               onClick={this.add}
-              className="bg-primary"
+              className="bg-primary add"
               style={{
-                width: '30%',
+                display:"inline-block",
                 height: 40,
                 color: 'white',
                 border: 'none',
                 borderRadius: 6,
+                marginTop:".7em"
               }}
             >
               add <i className="fas fa-paper-plane" />
